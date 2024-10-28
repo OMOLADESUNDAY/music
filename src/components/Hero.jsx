@@ -14,23 +14,23 @@ const Hero = () => {
       <Carousel.Item className='vkfjfm'>
         {/* <img src={Hig} text="First slide" /> */}
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1>Stream. Connect. Experience.</h1>
+          <p>Welcome to the ultimate destination for music lovers everywhere!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='vkfjfm'>
         {/* <img src={Hig} text="Second slide" /> */}
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1>Unlimited Streaming</h1>
+          <p>Dive into a world of music with an extensive library that spans every genre, mood, and moment. Explore your favorites or discover something new!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='vkfjfm'>
         {/* <img src={Hig} text="Third slide" /> */}
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h1>High-Quality Sound</h1>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Experience studio-quality sound that makes you feel like you’re right there in the room with your favorite artists
           </p>
         </Carousel.Caption>
       </Carousel.Item>
