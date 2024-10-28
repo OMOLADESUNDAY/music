@@ -1,0 +1,35 @@
+/* .over{
+    position: relative;
+    background-color: red;
+    height: 90vh;
+    width: 100%;
+    margin: -200px;
+}
+.aboutContainer{
+  
+} */
+.about{
+    position: relative;
+    /* border: solid green; */
+    min-height: 190vh;
+    background-color: #0c0617;;
+    /* border: solid hotpink; */
+    background-color: blue;
+    z-index:100 !important ;
+    color: blueviolet;
+   }
+.about::before{
+       content: '';
+       position: absolute;
+       top: -500px;
+       left: 0;
+       right:0;
+       min-height: 150vh;
+       background-image: url('../images/about-overlay.png');
+       background-size: cover;
+       max-width: 100%;
+       background-repeat: no-repeat;
+       z-index: -10;
+       background-color: #0c0617;
+       /* border: solid red; */
+   }
