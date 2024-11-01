@@ -6,6 +6,7 @@
     background-color: blue;
     z-index:100 !important ;
     color: blueviolet;
+    /* border: dotted white; */
    
    }
 .about::before{
@@ -23,16 +24,40 @@
        background-color: #0c0617;
        /* border: solid red; */
    }
-.aboutImageContainer{
-        position: absolute;
-        top: -200px;
-        border: solid;
-        width: 40%;
-   }
-.aboutImage{
-    width: 100%;
+.aboutContainer{
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
 }
-.discography{
+.aboutwrapper{
+    /* border: solid darkkhaki; */
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.aboutImageColumn{
+    position: relative;
+    max-width: 100vw
+}
+.secnff{
+    padding-top: 2rem;
+    /* border: solid blue; */
+}
+.aboutImage{
+    margin-top: -200px;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+   
+}
+.buybtn{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+.discography::before{
+    content: "";
     background-image: url('../images/discography-bg.png');
     background-size: cover;
     max-width: 100%;
@@ -45,4 +70,19 @@
     min-height: 140vh;
     width: 100%;
     z-index: -10;
+    /* border: solid; */
+    
+}
+@media screen and (max-width:769px) {
+    .aboutwrapper{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    .aboutImage{
+        /* position: none; */
+        width: 450px;
+        height: 500px;
+        
+    }
 }

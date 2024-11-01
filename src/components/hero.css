@@ -16,21 +16,33 @@
     height: 70%;
     flex-direction: column;
     justify-content: center;
-    /* border: solid purple; */
+    
+}
+.HeroBtn{
+    text-align: left;
+    margin-left: 0;
     
 }
 .vkfjfm{
-   
     min-height: 60vh;
+    
+}
+.carousel-caption{
+    text-align: left;
+}
+.carousel-caption >h1{
+    font-size: 3.2rem;
+    padding: 0;
+    margin: 0;
 }
 .collw{
-    /* border: solid red; */
+   
     min-height: 140vh;
     position: relative;
 }
 .ooi{
     min-height: 140vh;
-    /* border: green; */
+    
 }
 
 @media screen and (max-width:640px) {
