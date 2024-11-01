@@ -42,7 +42,7 @@ const About = () => {
         <Button variant="primary" className='buybtn'><FaApple/>BUY ON ITUNES</Button>{' '}
         </Col>
       </Row>
-      <Row>
+      <Row className='albumrow'>
           {AlbumAndSingle.map((singleAndAlbumItem)=>{
             return <SingleAndAlbum key={singleAndAlbumItem.id} SingleAndAlbum={singleAndAlbumItem}/>
           })}
