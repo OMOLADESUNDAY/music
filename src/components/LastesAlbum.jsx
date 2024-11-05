@@ -10,6 +10,7 @@ import imageer from '../images/3.jpg'
 import music from '../music/Burna-Boy-No-Fit-Vex.mp3'
 import music2 from '../music/Burna-Boy-Kilometre-1-(TrendyBeatz.com).mp3'
 import music3 from '../music/Burna-Boy-Its-Plenty-(TrendyBeatz.com).mp3'
+import SingleMusic from './SingleMusic';
 const LastesAlbum = () => {
     const backgroundRef=useRef(null)
 
@@ -25,9 +26,9 @@ const LastesAlbum = () => {
   
     // List of songs
     const songs = [
-      { title: 'No fit vex', src: music },
-      { title: 'Kilometre', src: music2 },
-      { title: 'isplenty', src: music3 },
+      { title: 'No fit vex', src: music ,id:1},
+      { title: 'Kilometre', src: music2,id:2 },
+      { title: 'isplenty', src: music3 ,id:3},
     ];
   
     const togglePlay = () => {
@@ -165,8 +166,13 @@ const LastesAlbum = () => {
         
     </div>
   </Col>
-  <Col>
-  <p style={{color:'red',background:'green'}}>kbkggkfkfkfkrf</p>
+  <Col className='musicRightSection'>
+  
+    <h3>Latest album</h3>
+    <h1>WHEN WE ALL FALL ASLEEP</h1>
+    {songs.map((song)=>{
+      return <SingleMusic key={song.id} song={song}/>
+    })}
   </Col>
       </Row>
     </section>

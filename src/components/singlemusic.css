@@ -1,0 +1,11 @@
+.single-music-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.single-music-left-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
