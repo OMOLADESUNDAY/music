@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './hero.css'
 import Carousel from 'react-bootstrap/Carousel';
-import Hig from '../images/ero.png';
 import { Button } from 'react-bootstrap';
 const Hero = () => {
   return (
