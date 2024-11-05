@@ -198,7 +198,7 @@
   }
   
   .progress-bar, .volume-control {
-    -webkit-appearance: none;
+    appearance: none;
     background-color: #666;
     border-radius: 5px;
   }
