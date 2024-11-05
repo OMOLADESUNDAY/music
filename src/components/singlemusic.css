@@ -2,10 +2,38 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: solid;
 }
-.single-music-left-section{
+.single-music-left-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    
+}
+.single-music-right-section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
+    
+}
+.right-play{
+    border: none;
+    outline: none;
+    background-color: purple;
+    padding:0.8rem;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.inner-right-play{
+    margin: 0;
+    padding: 0;
+    
+}
+.inner-right-play >h5{
+    border: solid green;
+    margin: 0;
 }

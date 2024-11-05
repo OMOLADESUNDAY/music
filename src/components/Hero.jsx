@@ -12,7 +12,6 @@ const Hero = () => {
      <Col className='collw'>
      <Carousel className='carouselContainer'>
       <Carousel.Item className='vkfjfm'>
-      
         <Carousel.Caption>
           <h1>Stream. Connect. Experience.</h1>
           <p>Welcome to the ultimate destination for music lovers everywhere!</p>

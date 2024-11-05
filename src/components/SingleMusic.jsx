@@ -9,13 +9,13 @@ const SingleMusic = () => {
   return (
     <section className='single-music-container'>
         <article className='single-music-left-section'>
-            <button><FaPlay className=''/></button>
-            <div>
+            <button className='right-play'><FaPlay /></button>
+            <div className='inner-right-play'>
                 <h5>title</h5>
                 <p>name</p>
             </div>
         </article>
-        <article className='single-music-left-section' >
+        <article className='single-music-right-section' >
             <div>
                 <Link><FaAmazon /></Link>
                 <Link><FaSpotify /></Link>
