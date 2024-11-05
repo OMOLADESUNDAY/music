@@ -5,14 +5,14 @@ import { TbPlayerTrackNextFilled } from "react-icons/tb";
 import { TbPlayerTrackPrevFilled } from "react-icons/tb";
 import { FaRepeat } from "react-icons/fa6";
 import { FaShuffle } from "react-icons/fa6";
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import imageer from '../images/3.jpg'
 import music from '../music/Burna-Boy-No-Fit-Vex.mp3'
 import music2 from '../music/Burna-Boy-Kilometre-1-(TrendyBeatz.com).mp3'
 import music3 from '../music/Burna-Boy-Its-Plenty-(TrendyBeatz.com).mp3'
 import SingleMusic from './SingleMusic';
 const LastesAlbum = () => {
-    const backgroundRef=useRef(null)
+    // const backgroundRef=useRef(null)
 
     const audioRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
