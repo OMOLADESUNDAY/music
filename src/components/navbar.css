@@ -5,6 +5,9 @@
     object-fit: cover;
     border-radius:50% ;
 }
+.dropdown-toggle{
+  z-index: 100000;
+}
   .dropdown-toggle::after{
     display: none!important;
 }

@@ -92,14 +92,133 @@
     text-align: center;
     padding-top: 4rem;
 }
+.audio{
+    background-color: blue;
+    width: 700px;
+}
+
+.toggleplaybtn{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.pause{
+    color: white;
+}
+.musicSection{
+    min-height: 70vh;
+}
+.musicRow{
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    /* min-height:  ; */
+    border: solid purple;
+}
+.musicLeftCol{
+    min-height: 70vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.imageer{
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.audio-player {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    align-items: center;
+    background: #333;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    width: 100%;
+    gap: 10px;
+    opacity: 0.7;
+  }
+.audio-player-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.audio-player-top-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.play-pause {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .play-pause:hover {
+    background: #45a049;
+  }
+  .shuffle{
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    width: 150px;
+    cursor: pointer;
+  }
+  .time-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+  }
+  
+  .time-info span {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    cursor: pointer;
+  }
+  .volume-control {
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .progress-bar, .volume-control {
+    -webkit-appearance: none;
+    background-color: #666;
+    border-radius: 5px;
+  }
+  
+  .progress-bar::-webkit-slider-thumb,
+  .volume-control::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
 @media screen and (max-width:769px) {
     .aboutwrapper{
         display: flex !important;
         flex-direction: column !important;
     }
-    
     .aboutImage{
-        /* position: none; */
         width: 450px;
         height: 500px;
         
