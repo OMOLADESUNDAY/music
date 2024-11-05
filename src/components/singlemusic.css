@@ -13,7 +13,7 @@
 }
 .single-music-right-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: 2rem;
     
