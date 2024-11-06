@@ -11,18 +11,18 @@ const SingleMusic = () => {
         <article className='single-music-left-section'>
             <button className='right-play'><FaPlay /></button>
             <div className='inner-right-play'>
-                <h5>title</h5>
+                <h5 className='music-title'>music title</h5>
                 <p>name</p>
             </div>
         </article>
         <article className='single-music-right-section' >
-            <div>
+            <div className='single-music-link'>
                 <Link><FaAmazon /></Link>
                 <Link><FaSpotify /></Link>
                 <Link><FaApple/></Link>
                 <Link><ImCloud /></Link>
             </div>
-            <p>
+            <p className='music-lenght'>
                 0:00
             </p>
         </article>

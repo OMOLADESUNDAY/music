@@ -1,8 +1,7 @@
 .single-music-container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    border: solid;
 }
 .single-music-left-section {
     display: flex;
@@ -11,12 +10,21 @@
     gap: 2rem;
     
 }
+.music-title{
+    font-size: 19px;
+}
+.single-music-link{
+    display: flex;
+    gap: 1rem;
+}
+.music-lenght{
+    padding: 0;
+}
 .single-music-right-section {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 2rem;
-    
+    gap: 2rem;    
 }
 .right-play{
     border: none;
@@ -34,6 +42,5 @@
     
 }
 .inner-right-play >h5{
-    border: solid green;
     margin: 0;
 }

@@ -39,7 +39,7 @@
 .aboutImageColumn{
     position: relative;
     max-width: 100vw;
-    border: solid red;
+    /* border: solid red; */
 }
 .secnff{
     padding-top: 2rem;
