@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './components/Hero';
 import About from './components/About';
 import LastesAlbum from './components/LastesAlbum';
+import Video from './components/Video';
 // import Subscription from './components/Subscription';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero/>
       <About/>
       <LastesAlbum/>
+      <Video/>
       {/* <Subscription/> */}
     </div>
     

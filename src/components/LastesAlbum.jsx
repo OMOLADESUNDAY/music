@@ -173,9 +173,12 @@ const LastesAlbum = () => {
   
     <h3>Latest album</h3>
     <h1>WHEN WE ALL FALL ASLEEP</h1>
+    <div className='outer-music-container'>
     {songs.map((song)=>{
       return <SingleMusic key={song.id} song={song}/>
     })}
+    </div>
+   
   </Col>
       </Row>
     </section>
