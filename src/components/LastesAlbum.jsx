@@ -6,7 +6,13 @@ import { TbPlayerTrackPrevFilled } from "react-icons/tb";
 import { FaRepeat } from "react-icons/fa6";
 import { FaShuffle } from "react-icons/fa6";
 import { Col, Row } from 'react-bootstrap'
+import image1 from '../images/1.jpg'
+import image2 from '../images/2.jpg'
 import imageer from '../images/3.jpg'
+import image4 from '../images/4.jpg'
+import image5 from '../images/5.jpg'
+import image6 from '../images/6.jpg'
+
 import music from '../musicc/Burna-Boy-No-Fit-Vex.mp3'
 import music2 from '../musicc/Burna-Boy-Kilometre-1-(TrendyBeatz.com).mp3'
 import music3 from '../musicc/Burna-Boy-Its-Plenty-(TrendyBeatz.com).mp3'
@@ -26,12 +32,12 @@ const LastesAlbum = () => {
   
     // List of songs
     const songs = [
-      { title: 'No fit vex', src: music ,id:0,name:"kahlido"},
-      { title: 'Kilometre', src: music2,id:1,name:"Baddo ft kahlido" },
-      { title: 'isplenty', src: music3 ,id:2,name:"kahlido"},
-      { title: 'No fit vex', src: music ,id:3,name:"kahlido ft wizkid"},
-      { title: 'Kilometre', src: music2,id:4 ,name:"Davido ft kahlido"},
-      { title: 'isplenty', src: music3 ,id:5,name:"kahlido"}
+      { title: 'No fit vex', src: music ,id:0,name:"kahlido", image:image1},
+      { title: 'Kilometre', src: music2,id:1,name:"Baddo ft kahlido", image:image2 },
+      { title: 'isplenty', src: music3 ,id:2,name:"kahlido", image:imageer},
+      { title: 'No fit vex', src: music ,id:3,name:"kahlido ft wizkid", image:image4},
+      { title: 'Kilometre', src: music2,id:4 ,name:"Davido ft kahlido", image:image5},
+      { title: 'isplenty', src: music3 ,id:5,name:"kahlido", image:image6}
     ];
   
     const togglePlay = () => {
@@ -123,7 +129,7 @@ const LastesAlbum = () => {
     <section className='musicSection'>
       <Row className='musicRow'>
         <Col className='musicLeftCol'>
-        <img src={imageer} className='imageer' alt="music" />
+        <img src={songs[currentSongIndex].image} className='imageer' alt="music" />
         <div className="audio-player">
           <div className='audio-player-top'>
             <div><h5>{songs[currentSongIndex].title}</h5></div>
