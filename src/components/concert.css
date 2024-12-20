@@ -29,3 +29,17 @@
     background: linear-gradient(to right, rgb(60, 35, 118), rgb(185, 63, 238));
     
 }
+.concert-up-wrapper{
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width:1024px) {
+    .concert-up-wrapper{
+        flex-direction: column;
+    }
+    .concert-up-wrapper>div:nth-child(1){
+        width: 100%;
+       
+    }
+}
