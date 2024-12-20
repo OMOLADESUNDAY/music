@@ -11,6 +11,8 @@
     color: white;
     text-align: center;
     text-transform: capitalize;
+    background-color: rgb(13, 6, 22);
+    /* background-color: rgba(17, 3, 58, 0.861); */
 }
 .video-contianer::before{
     position: absolute;
