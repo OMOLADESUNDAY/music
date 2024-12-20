@@ -43,6 +43,7 @@
 }
 .secnff{
     padding-top: 2rem;
+    color: white;
     /* border: solid blue; */
 }
 .aboutImage{
@@ -80,6 +81,7 @@
 .discographyBuyContainer{
     padding-top: 4rem;
     margin: 0;
+    color: white;
     /* padding-top: 2rem; */
 }
 .albumrow{
@@ -92,6 +94,7 @@
 .albumContainer{
     text-align: center;
     padding-top: 4rem;
+    color: white;
 }
 .audio{
     background-color: blue;
@@ -192,7 +195,7 @@
     gap: 5px;
     width: 100%;
   }
-  
+
   .time-info span {
     font-size: 14px;
     color: #ccc;

@@ -35,7 +35,7 @@ const About = () => {
     <div className='discography'>
       <Row className='discographyBuyContainer'>
         <Col>
-          <h4>Our Discogaphy</h4>
+          <h4>Our Discography</h4>
           <h1>newest albums & singles</h1>
         </Col>
         <Col>

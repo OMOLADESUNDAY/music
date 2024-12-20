@@ -20,23 +20,23 @@ const Navbarr = () => {
         <Navbar.Collapse id="basic-navbar-nav d-flex justify-content-between">
         <Nav className="mx-auto me-5" activeKey="/home">
         <Nav.Item>
-          <Nav.Link as={Link} to="/home" >HOME</Nav.Link>
+          <Nav.Link className='navv-link' as={Link} to="/home" >HOME</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">ABOUT</Nav.Link>
+          <Nav.Link eventKey="link-1" className='navv-link'>ABOUT</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">ALBUMS</Nav.Link>
+          <Nav.Link eventKey="link-2" className='navv-link'>ALBUMS</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link  eventKey="link-2">TOURS</Nav.Link>
+          <Nav.Link  eventKey="link-2" className='navv-link'>TOURS</Nav.Link>
         </Nav.Item>
          <NavDropdown   
             id="basic-nav-dropdown"
             show={show} 
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave} 
-            title="PAGES"
+            title={<span className='navv-link'>PAGES</span>}
             className='dropdown-toggle'>
               <NavDropdown.Item href="#action/3.1" ><Nav.Link as={Link} to="/home" >Gallery</Nav.Link></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2"><Nav.Link as={Link} to="/home" >Ticket</Nav.Link></NavDropdown.Item>
@@ -44,14 +44,14 @@ const Navbarr = () => {
               <NavDropdown.Item href="#action/3.3"><Nav.Link as={Link} to="/home" >Blog single</Nav.Link></NavDropdown.Item>
             </NavDropdown>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">BLOG</Nav.Link>
+          <Nav.Link eventKey="link-2" className='navv-link'>BLOG</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">CONTACT</Nav.Link>
+          <Nav.Link eventKey="link-2" className='navv-link'>CONTACT</Nav.Link>
         </Nav.Item>
       </Nav>
       <div className="d-flex align-items-center">
-        <button className="btn btn-primary">BUY TICKET</button>
+        <button className="btn send-btn buuy" >BUY TICKET</button>
       </div>
         </Navbar.Collapse>
       </Container>

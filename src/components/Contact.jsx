@@ -16,7 +16,7 @@ const Contact = () => {
                     <Row className='name-email'>
                         <textarea name="" id="" placeholder='Message' className='email' rows={5}></textarea>
                     </Row>
-                    <Button className='send-btn'>Primary</Button>
+                    <Button className='send-btn'>SEND EMAIL</Button>
                 </form>
             </Col>
             <Col className='contact-img-container'>

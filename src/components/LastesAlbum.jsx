@@ -183,8 +183,7 @@ const LastesAlbum = () => {
     </div>
   </Col>
   <Col className='musicRightSection'>
-  
-    <h3>Latest album</h3>
+    <h3 className='video-text'>Latest album</h3>
     <h1>WHEN WE ALL FALL ASLEEP</h1>
     <div className='outer-music-container'>
     {songs.map((song)=>{

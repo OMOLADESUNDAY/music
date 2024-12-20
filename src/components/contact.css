@@ -56,3 +56,11 @@
     border-image: linear-gradient(to right, rgb(60, 35, 118), rgb(185, 63, 238)) 1;
     background: linear-gradient(to right, rgb(60, 35, 118), rgb(185, 63, 238));
 }
+.concert-up-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+@media screen  and (max-width:1024px) {
+    .contact-container{width: 95%;}
+}

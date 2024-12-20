@@ -16,13 +16,13 @@ const Concert = () => {
     }
   return (
     <section className='concert-container'>
-        <div>
+        <div className='concert-up-wrapper'>
         <div>
             <h4>Upcoming Shows</h4>
             <h1>WHEN WE ALL FALL ASLEEP</h1>
         </div>
         <div>
-            <button className='viewallbtn' onClick={viewAll}>{show ? 'View less':'veiw more'}</button>
+            <button className='send-btn' onClick={viewAll}>{show ? 'View less':'veiw more'}</button>
         </div>
     </div>
     <section>

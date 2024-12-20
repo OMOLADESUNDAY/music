@@ -28,7 +28,7 @@ const Video = () => {
       const videoDurationRef=useRef()
   return (
     <div className='video-contianer'>
-         <h3>Our Videos</h3>
+         <h3 className='video-text'>Our Videos</h3>
          <h1>newest albums & singles.</h1>
          <Row className='video-wrapper-inn'>
             <Col lg={8} >

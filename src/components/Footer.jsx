@@ -13,15 +13,15 @@ const Footer = () => {
         <Contact/>
         <section>
           <Row className='middle-footer-container'>
-            <Col>
-              <div> <IoLocation /> </div>
+            <Col className='footer-wrapper'>
+              <div className='footer-location-container'> <IoLocation className='location-logo' /> </div>
               <div>
                   <p>333 Middle Winchendon Rd,</p>
                   <p>Rindge, NH 03461</p>
               </div>
             </Col>
-            <Col>
-            <div> <IoLocation /> </div>
+            <Col className='footer-wrapper'>
+            <div className='footer-location-container'> <IoLocation className='location-logo' /> </div>
               <div>
                   <p>125-711-811 | 125-668-886</p>
                   <p>Support.music@gmail.com</p>
